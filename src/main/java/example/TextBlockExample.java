@@ -1,4 +1,4 @@
-package example.textblock;
+package example;
 
 import org.intellij.lang.annotations.Language;
 

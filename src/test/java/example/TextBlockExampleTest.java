@@ -1,4 +1,4 @@
-package example.textblock;
+package example;
 
 import org.junit.jupiter.api.Test;
 
