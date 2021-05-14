@@ -1,3 +1,3 @@
-## JDK 15 New Feature Example
+## Java New Features Example
 
-Example code used in [this article](https://medium.com/@gaozhixiang/everything-you-need-to-know-about-text-block-in-jdk-15-fe14e4023627)
+Example code used by articles [here](https://medium.com/@gaozhixiang)
