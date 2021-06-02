@@ -1,0 +1,22 @@
+type Customer {
+    id: ID!
+    name: String!
+    age: Int!
+    accounts: [Account]!
+}
+
+type Account {
+    id: ID!
+    accountType: String!
+    balance: String!
+}
+
+# The Root Query for the application
+type Query {
+    customer(id: ID): Customer!
+}
+
+# The Root Mutation for the application
+type Mutation {
+    customer(name: String!, age: Int!) : Customer!
+}

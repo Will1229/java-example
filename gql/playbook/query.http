@@ -1,0 +1,8 @@
+POST http://localhost:8080/graphql
+Content-Type: application/json
+
+{
+  "query": "{ customer(id: 1) { id name age accounts { id accountType balance } } }"
+}
+
+###
