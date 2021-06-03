@@ -8,13 +8,9 @@ import org.springframework.stereotype.Component;
 
 @Component
 @AllArgsConstructor
-public class Mutation implements GraphQLMutationResolver {
+public class CustomerMutation implements GraphQLMutationResolver {
 
     private final CustomerDao customerDao;
-
-    public Customer getCustomer(String name, Integer age) {
-        return customerDao.getCustomer(name, age);
-    }
 
     public Customer addCustomer(String name, Integer age) {
         return customerDao.saveCustomer(name, age);
