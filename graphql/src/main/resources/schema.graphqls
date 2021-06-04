@@ -12,13 +12,11 @@ type Account {
     balance: String!
 }
 
-# The Root Query for the application
 type Query {
     customer(id: ID): Customer!
     account(id: ID): Account!
 }
 
-# The Root Mutation for the application
 type Mutation {
     addCustomer(name: String!, age: Int!) : Customer!
     addAccount(customerId: ID!, accountType: String!, balance: String) : Account!

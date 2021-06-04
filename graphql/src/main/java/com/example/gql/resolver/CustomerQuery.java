@@ -15,5 +15,4 @@ public class CustomerQuery implements GraphQLQueryResolver {
     public Customer getCustomer(String id) {
         return customerDao.getCustomer(id);
     }
-
 }
